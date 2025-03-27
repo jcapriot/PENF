@@ -147,7 +147,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -182,7 +182,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -218,7 +218,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                               :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -255,7 +255,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                               :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -293,7 +293,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                               :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -332,7 +332,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -372,7 +372,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -407,7 +407,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -442,7 +442,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -478,7 +478,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -515,7 +515,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -553,7 +553,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -592,7 +592,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -632,7 +632,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -667,7 +667,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -702,7 +702,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -738,7 +738,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -775,7 +775,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -813,7 +813,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -852,7 +852,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -892,7 +892,7 @@ contains
    logical,                intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                     :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                       :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                               :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -927,7 +927,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                  :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -962,7 +962,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -998,7 +998,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1035,7 +1035,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1073,7 +1073,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1112,7 +1112,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1152,7 +1152,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1187,7 +1187,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1222,7 +1222,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1258,7 +1258,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1295,7 +1295,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1333,7 +1333,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1372,7 +1372,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1412,7 +1412,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1447,7 +1447,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1482,7 +1482,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1518,7 +1518,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1555,7 +1555,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1593,7 +1593,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1632,7 +1632,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1672,7 +1672,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1707,7 +1707,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1742,7 +1742,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1778,7 +1778,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1815,7 +1815,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1853,7 +1853,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1892,7 +1892,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
@@ -1932,7 +1932,7 @@ contains
    logical,                   intent(in), optional  :: verbose             !< Flag to activate verbose mode.
    character(:), allocatable                        :: msg_                !< Message to be printed in verbose mode, local var.
    logical                                          :: verbose_            !< Flag to activate verbose mode, local var.
-   integer(C_LONG)                                  :: mem_free, mem_total !< CPU memory.
+   integer(I8P)                                          :: mem_free, mem_total !< CPU memory.
 
    msg_     = ''      ; if (present(msg    )) msg_     = msg
    verbose_ = .false. ; if (present(verbose)) verbose_ = verbose
