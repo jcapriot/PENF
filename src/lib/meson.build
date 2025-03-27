@@ -6,7 +6,7 @@ penf_srcs = [
     'penf_stringify.F90',
 ]
 
-penf_include_dir = include_directories('.')
+# penf_include_dir = include_directories('.')
 
 
 lib_penf = library(
@@ -15,6 +15,6 @@ lib_penf = library(
 )
 
 penf_dep = declare_dependency(
-        include_directories: penf_include_dir,
+        # include_directories: penf_include_dir,
         link_with: lib_penf,
 )
